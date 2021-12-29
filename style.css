@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    text-align: center ;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav i:hover{
+    cursor: pointer;
+    color: white;
+}
+
+nav .menu-logo{
+    padding-top: 10px;
+    padding-right: 10px;
+    float: right;
+}
+
+@media only screen and (max-width: 630px) {
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+    header nav .menu-logo {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    body section ul a li span p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 70vh;
+    animation: fadeInUp .8s;
+}
+
+section .pdp img {
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 10px solid #21222b93;
+    cursor: none;
+    margin-bottom: 10px;
+}
+
+section .genshinimpact img {
+    width: 45px;
+    height: auto;
+}
+
+section .valorant img {
+    width: 40px;
+    height: auto;
+}
+
+section .lol img {
+    width: 40px;
+    height: auto;
+}
+
+section .discord img {
+    width: 45px;
+    height: auto;
+}
+
+section .github img {
+    width: 39px;
+    height: auto;
+}
+
+section .steam img {
+    width: 45px;
+    height: auto;
+}
+
+section span {
+    color: #fffffe;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+section p {
+    position: relative;
+    top: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #94a1b2;
+    font-size: 25px;
+}
+
+section ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section ul li a {
+    color: #a6a8b8;
+    display: flex;
+    text-decoration: none;
+    margin: 20px 5px;
+    font-size: 35px;
+    padding: 5px;
+    transition: 0.2s all;
+}
+
+section ul li a:hover {
+    transition: 0.2s all;
+    color: #fff;
+}
+
+section i:hover{
+    cursor: pointer;
+    color: white;
+}
+
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 150px, 0)
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        transform: translate3d(0, -150px, 0)
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
