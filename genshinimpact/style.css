@@ -38,8 +38,7 @@ section img {
     border-radius: 5%;
     object-fit: cover;
     border: 5px solid #21222b93;
-    cursor: none;
-    margin-bottom: 10px;
+    margin-top: 10%;
 }
 
 section p {
@@ -68,4 +67,8 @@ section ul li a {
     font-size: 35px;
     padding: 5px;
     transition: 0.2s all;
+}
+
+div.genshinimpact-info{
+    margin-top: 5%;
 }

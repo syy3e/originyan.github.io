@@ -27,20 +27,16 @@ nav .back{
     padding-top: 10px;
     padding-right: 10px;
     float: right;
+    flex-wrap: wrap;
 }
 
-nav .discordwidget{
-    padding-top: 10px;
-    padding-left: 10px;
-    float: left;
-}
 
 nav .back img{
     width: 60px;
     height: auto;
 }
 
-section .discord{
+section .discord-image{
     padding-top: 10%;
 }
 
@@ -48,7 +44,6 @@ section img {
     border-radius: 5%;
     object-fit: cover;
     border: 5px solid #21222b93;
-    cursor: none;
     margin-bottom: 10px;
 }
 
@@ -78,4 +73,12 @@ section ul li a {
     font-size: 35px;
     padding: 5px;
     transition: 0.2s all;
+}
+
+div.discordwidget {
+    margin-top: 5%;
+}
+
+div.discord-info {
+    margin-top: 5%;
 }
